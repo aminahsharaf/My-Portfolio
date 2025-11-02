@@ -1,0 +1,63 @@
+.resume-section {
+  padding: 100px 0;
+  color:black;
+  background: whitesmoke;
+  backdrop-filter: blur(5px);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-bottom: 70px;
+  padding: 0 10%;
+}
+
+.resume-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+}
+
+.resume-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 0 10%;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}

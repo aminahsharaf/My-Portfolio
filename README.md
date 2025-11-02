@@ -1,27 +1,50 @@
-# MyPortfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+This is my personal portfolio website built using Angular.  
+It showcases my professional experience, skills, projects, and contact information.
 
-## Development server
+## Live Website
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://aminahsharaf.github.io/My-Portfolio/
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 18
+- TypeScript
+- HTML5
+- SCSS / CSS3
+- GitHub Pages for Deployment
 
-## Build
+## Setup Instructions
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aminahsharaf/My-Portfolio.git
+   ```
+2. Navigate to the project directory:
+   cd My-Portfolio
+3. Install dependencies:
+   npm install
+4. Run the development server:  
+    ng serve
+   Open http://localhost:4200/ in your browser.
 
-## Running unit tests
+## Build for Production
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng build
+The production build will be generated in the dist/ directory.
 
-## Running end-to-end tests
+## Deployment (GitHub Pages)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng build --output-path docs --base-href /My-Portfolio/
+git add .
+git commit -m "Deploy"
+git push
 
-## Further help
+## Contact
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Email: aminasharaf75@gmail.com
+
+Portfolio: https://aminahsharaf.github.io/My-Portfolio/
+
+GitHub: https://github.com/aminahsharaf
