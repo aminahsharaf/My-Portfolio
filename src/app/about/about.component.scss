@@ -1,0 +1,115 @@
+.hero-section {
+  //background-image: url('https://wallpapercave.com/wp/wp8972687.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 120px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.tag {
+  background-color: black;
+  padding: 16px 16px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.hero-text h1 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.hero-text h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.hero-text p {
+  line-height: 1.6;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+/* Profile Image Styling */
+.hero-img img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ffffff55;
+  box-shadow: 0 0 40px rgba(255,255,255,0.25);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .hero-img img {
+    width: 280px;
+    height: 280px;
+  }
+}
+.typing {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.cursor {
+  font-weight: 300;
+  margin-left: 4px;
+  animation: blink 0.7s infinite;
+  color: black; 
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.about-photo {
+  width: 260px;
+  border-radius: 12px;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+}
+
+.about-photo.animate {
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
