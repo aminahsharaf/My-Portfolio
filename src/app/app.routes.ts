@@ -3,17 +3,17 @@ import { Skills } from './pages/skills/skills';
 import { Projects } from './pages/projects/projects';
 import { Contact } from './pages/contact/contact';
 import { About } from './pages/about/about';
-import { Intro } from './pages/intro/intro';
+import { Home } from './pages/home/home';
 
 export const routes: Routes = [
   /*  {
         path:'',
-        redirectTo:'intro',
+        redirectTo:'home',
         pathMatch:"full"
     },
         {
-        path:'intro',
-        component:Intro
+        path:'home',
+        component:Home
     },
       {
         path:'about',

@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-intro',
+  selector: 'app-home',
   imports: [],
-  templateUrl: './intro.html',
-  styleUrl: './intro.css',
+  templateUrl: './home.html',
+  styleUrl: './home.css',
 })
-export class Intro implements OnInit {
+export class Home implements OnInit {
  roles: string[] = [
     "Senior Software Engineer",
     "Senior Frontend Developer",

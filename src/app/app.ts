@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Intro } from './pages/intro/intro';
+import { Home } from './pages/home/home';
 import { Navbar } from './pages/navbar/navbar';
 import { Skills } from './pages/skills/skills';
 import { Projects } from './pages/projects/projects';
@@ -15,7 +15,7 @@ import { Footer } from './pages/footer/footer';
   standalone: true,
   imports: [
     RouterOutlet,
-    Intro,
+    Home,
     Navbar,
     Skills,
     Projects,
@@ -28,11 +28,11 @@ import { Footer } from './pages/footer/footer';
   template: `
     <app-navbar></app-navbar>
     <main class="px-6 md:px-20">
-      <app-intro></app-intro>
+      <app-home></app-home>
       <app-skills></app-skills>
-      <app-projects></app-projects>
+     <!--  <app-projects></app-projects>  -->
       <app-work-experience></app-work-experience>
-      <app-achievements></app-achievements>
+     <!-- <app-achievements></app-achievements> -->
       <app-about></app-about>
       <app-contact></app-contact>
     </main>
@@ -41,5 +41,5 @@ import { Footer } from './pages/footer/footer';
   styleUrls: ['./app.css'],
 })
 export class App {
-  protected readonly title = signal('portfolio-2.0');
+  protected readonly title = signal('AminaSharaf');
 }
