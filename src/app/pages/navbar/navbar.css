@@ -1,0 +1,37 @@
+   /* Smooth hover animation */
+  .nav-link {
+    position: relative;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+
+  /* underline hover animation */
+  .nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ffd369;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Active page highlight */
+  .nav-link.active {
+    color: #ffd369 !important;
+  }
+
+  .navbar {
+    animation: slideDown 0.8s ease;
+  }
+
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  } 
+ 
