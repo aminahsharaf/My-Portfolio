@@ -1,0 +1,48 @@
+  /* Background Gradient */
+  .hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    padding: 120px 15px;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+
+  /* Highlight Color */
+  .highlight {
+    color: #ffd369;
+  }
+
+  /* Fade-in effect */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Typing Text Animation */
+  .typing-text span {
+    border-right: 3px solid #ffd369;
+    animation: blink 0.7s infinite;
+    padding-right: 5px;
+  }
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+
+  /* Button Hover */
+  .btn:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+  }
+  .hero-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  border: 3px solid rgba(255,255,255,0.6);
+  transition: transform .3s ease;
+}
+
+.hero-profile:hover {
+  transform: scale(1.05);
+}

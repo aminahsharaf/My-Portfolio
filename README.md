@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my personal portfolio website built using Angular.  
+This is my personal portfolio website built using AngularV20.  
 It showcases my professional experience, skills, projects, and contact information.
 
 ## Live Website
@@ -9,7 +9,7 @@ https://aminahsharaf.github.io/My-Portfolio/
 
 ## Technologies Used
 
-- Angular 18
+- Angular 20
 - TypeScript
 - HTML5
 - SCSS / CSS3
